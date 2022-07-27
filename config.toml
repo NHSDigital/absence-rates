@@ -1,0 +1,21 @@
+project_name = "Absence-rates_publication"
+server = 'xxx'
+database = 'xxx'
+
+# For now I'm including all three. Expect that the staff_table could be removed later
+staff_table_raw = 'ESR-ABSENCE-yyyy-mm_RAW'
+staff_table_processed = 'ESR-ABSENCE-yyyy-mm_PROCESSED'
+staff_table = 'ESR-ABSENCE-yyyy-mm'
+
+month_date = 'dd/mm/yyyy' # e.g. 30/11/2021
+mds_table = 'MDS_Absence_yyyymm'
+ref_table = 'REF_CORP_WKFC_OCCUPATION_V01'
+latest_org_name = 'REF_ORG_MASTER_LATEST_ORG_NAME_yyyymm'
+org_master = 'REF_ORG_MASTER'
+ref_payscale = 'REF_Payscale'
+staff_in_post = 'Final_StaffInPost_yyyymm_NEW_BASE_PROCESS'
+# Value is always the same value and the last day of the month for start_date and end_date
+start_date = 'yyyy-mm-dd' # e.g. 2021-11-30
+end_date  = 'yyyy-mm-dd'
+output_dir = 'xxx'
+log_dir = 'xxx'
