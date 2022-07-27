@@ -181,3 +181,8 @@ Running the `make_publication.py` script will also run the `reason_and_staff.py`
 Before running the `test_compare_outputs` script, ensure the current publication's outputs produced from the SQL pipeline are in the ground truth folder located in xxx and the outputs produced from the RAP pipeline in the Outputs_to_test folder. In `backtesting_params` ensure that the correct CSVs are selected for each folder, then run `test_compare_outputs`.
 
 For more info on backtesting [click](https://github.com/NHSDigital/rap-community-of-practice/blob/main/development-approach/10_backtesting.md).
+
+## Licence
+Absence rates codebase is released under the MIT License.
+
+The documentation is © Crown copyright and available under the terms of the [Open Government 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) licence.
